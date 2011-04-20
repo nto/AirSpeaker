@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2811245C13009F8F00BBB46C /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811245B13009F8F00BBB46C /* AsyncUdpSocket.m */; };
+		281124611300A04300BBB46C /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 281124601300A04300BBB46C /* GCDAsyncSocket.m */; };
+		281124641300A07700BBB46C /* AirTunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281124631300A07700BBB46C /* AirTunesController.m */; };
+		284001B812EE56D70048E3B2 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 284001B712EE56D70048E3B2 /* DeviceInfo.m */; };
+		284001BC12EE60390048E3B2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284001BB12EE60390048E3B2 /* CFNetwork.framework */; };
+		284B92D51301F9F300C87366 /* TimeSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 284B92D41301F9F300C87366 /* TimeSync.m */; };
+		285BCFE5135CBFC300E712C9 /* alac.c in Sources */ = {isa = PBXBuildFile; fileRef = 285BCFE3135CBFC300E712C9 /* alac.c */; };
+		285BCFF3135D077200E712C9 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285BCFF1135D077200E712C9 /* MainWindow-iPad.xib */; };
+		285BD000135D0AF800E712C9 /* AirSpeaker iPad Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 285BCFFD135D0AF700E712C9 /* AirSpeaker iPad Icon.png */; };
+		285BD001135D0AF800E712C9 /* AirSpeaker iPhone Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 285BCFFE135D0AF800E712C9 /* AirSpeaker iPhone Icon.png */; };
+		285BD002135D0AF800E712C9 /* AirSpeaker iPhone Retina Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 285BCFFF135D0AF800E712C9 /* AirSpeaker iPhone Retina Icon.png */; };
+		28962969135E243900559145 /* DMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 28962968135E243900559145 /* DMAP.m */; };
+		28A0433C1310ABFF00FD39A2 /* CryptoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0433B1310ABFF00FD39A2 /* CryptoController.m */; };
+		28A0433F1310B42700FD39A2 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0433E1310B42600FD39A2 /* Base64.m */; };
+		28A0D5E4130469B10075A7B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A0D5E3130469B10075A7B4 /* AVFoundation.framework */; };
+		28A4EF8B13036FD300BD52D7 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A4EF8A13036FD300BD52D7 /* AudioPlayer.m */; };
+		28A4EF95130387AE00BD52D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A4EF94130387AE00BD52D7 /* AudioToolbox.framework */; };
+		28D3A4A1135A817300AF78CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D3A4A0135A817300AF78CC /* Security.framework */; };
+		28E3D42012EDEACF00BB15D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3D41F12EDEACF00BB15D9 /* UIKit.framework */; };
+		28E3D42212EDEACF00BB15D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3D42112EDEACF00BB15D9 /* Foundation.framework */; };
+		28E3D42412EDEACF00BB15D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E3D42312EDEACF00BB15D9 /* CoreGraphics.framework */; };
+		28E3D42A12EDEACF00BB15D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28E3D42812EDEACF00BB15D9 /* InfoPlist.strings */; };
+		28E3D42D12EDEACF00BB15D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3D42C12EDEACF00BB15D9 /* main.m */; };
+		28E3D43012EDEACF00BB15D9 /* AirSpeakerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3D42F12EDEACF00BB15D9 /* AirSpeakerAppDelegate.m */; };
+		28E3D43312EDEACF00BB15D9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E3D43112EDEACF00BB15D9 /* MainWindow.xib */; };
+		28E3D43612EDEACF00BB15D9 /* AirSpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3D43512EDEACF00BB15D9 /* AirSpeakerViewController.m */; };
+		28E3D43912EDEACF00BB15D9 /* AirSpeakerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E3D43712EDEACF00BB15D9 /* AirSpeakerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2811245A13009F8F00BBB46C /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = CocoaAsyncSocket/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		2811245B13009F8F00BBB46C /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = CocoaAsyncSocket/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		2811245F1300A04300BBB46C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = CocoaAsyncSocket/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		281124601300A04300BBB46C /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = CocoaAsyncSocket/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		281124621300A07100BBB46C /* AirTunesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirTunesController.h; path = AirTunes/AirTunesController.h; sourceTree = SOURCE_ROOT; };
+		281124631300A07700BBB46C /* AirTunesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirTunesController.m; path = AirTunes/AirTunesController.m; sourceTree = SOURCE_ROOT; };
+		284001B612EE56D70048E3B2 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		284001B712EE56D70048E3B2 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		284001BB12EE60390048E3B2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		284B92D31301F9F300C87366 /* TimeSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeSync.h; path = AirTunes/TimeSync.h; sourceTree = SOURCE_ROOT; };
+		284B92D41301F9F300C87366 /* TimeSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeSync.m; path = AirTunes/TimeSync.m; sourceTree = SOURCE_ROOT; };
+		285BCFE3135CBFC300E712C9 /* alac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = alac.c; path = AirTunes/alac.c; sourceTree = SOURCE_ROOT; };
+		285BCFE4135CBFC300E712C9 /* alac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alac.h; path = AirTunes/alac.h; sourceTree = SOURCE_ROOT; };
+		285BCFF2135D077200E712C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		285BCFFD135D0AF700E712C9 /* AirSpeaker iPad Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AirSpeaker iPad Icon.png"; path = "Icons/AirSpeaker iPad Icon.png"; sourceTree = "<group>"; };
+		285BCFFE135D0AF800E712C9 /* AirSpeaker iPhone Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AirSpeaker iPhone Icon.png"; path = "Icons/AirSpeaker iPhone Icon.png"; sourceTree = "<group>"; };
+		285BCFFF135D0AF800E712C9 /* AirSpeaker iPhone Retina Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AirSpeaker iPhone Retina Icon.png"; path = "Icons/AirSpeaker iPhone Retina Icon.png"; sourceTree = "<group>"; };
+		28962967135E243900559145 /* DMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMAP.h; path = AirTunes/DMAP.h; sourceTree = SOURCE_ROOT; };
+		28962968135E243900559145 /* DMAP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMAP.m; path = AirTunes/DMAP.m; sourceTree = SOURCE_ROOT; };
+		28A0433A1310ABFF00FD39A2 /* CryptoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CryptoController.h; path = AirTunes/CryptoController.h; sourceTree = SOURCE_ROOT; };
+		28A0433B1310ABFF00FD39A2 /* CryptoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CryptoController.m; path = AirTunes/CryptoController.m; sourceTree = SOURCE_ROOT; };
+		28A0433D1310B42600FD39A2 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = AirTunes/Base64.h; sourceTree = SOURCE_ROOT; };
+		28A0433E1310B42600FD39A2 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = AirTunes/Base64.m; sourceTree = SOURCE_ROOT; };
+		28A0D5E3130469B10075A7B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		28A4EF88130366A000BD52D7 /* AirTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirTunes.h; path = AirTunes/AirTunes.h; sourceTree = SOURCE_ROOT; };
+		28A4EF8913036FD300BD52D7 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPlayer.h; path = AirTunes/AudioPlayer.h; sourceTree = SOURCE_ROOT; };
+		28A4EF8A13036FD300BD52D7 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioPlayer.m; path = AirTunes/AudioPlayer.m; sourceTree = SOURCE_ROOT; };
+		28A4EF94130387AE00BD52D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		28D3A4A0135A817300AF78CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		28E3D41B12EDEACF00BB15D9 /* AirSpeaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSpeaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E3D41F12EDEACF00BB15D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28E3D42112EDEACF00BB15D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28E3D42312EDEACF00BB15D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28E3D42712EDEACF00BB15D9 /* AirSpeaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirSpeaker-Info.plist"; sourceTree = "<group>"; };
+		28E3D42912EDEACF00BB15D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28E3D42B12EDEACF00BB15D9 /* AirSpeaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirSpeaker-Prefix.pch"; sourceTree = "<group>"; };
+		28E3D42C12EDEACF00BB15D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28E3D42E12EDEACF00BB15D9 /* AirSpeakerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirSpeakerAppDelegate.h; sourceTree = "<group>"; };
+		28E3D42F12EDEACF00BB15D9 /* AirSpeakerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirSpeakerAppDelegate.m; sourceTree = "<group>"; };
+		28E3D43212EDEACF00BB15D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28E3D43412EDEACF00BB15D9 /* AirSpeakerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirSpeakerViewController.h; sourceTree = "<group>"; };
+		28E3D43512EDEACF00BB15D9 /* AirSpeakerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirSpeakerViewController.m; sourceTree = "<group>"; };
+		28E3D43812EDEACF00BB15D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AirSpeakerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E3D41812EDEACE00BB15D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D3A4A1135A817300AF78CC /* Security.framework in Frameworks */,
+				28E3D42012EDEACF00BB15D9 /* UIKit.framework in Frameworks */,
+				28E3D42212EDEACF00BB15D9 /* Foundation.framework in Frameworks */,
+				28E3D42412EDEACF00BB15D9 /* CoreGraphics.framework in Frameworks */,
+				284001BC12EE60390048E3B2 /* CFNetwork.framework in Frameworks */,
+				28A4EF95130387AE00BD52D7 /* AudioToolbox.framework in Frameworks */,
+				28A0D5E4130469B10075A7B4 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2811245D13009F9A00BBB46C /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				2811245A13009F8F00BBB46C /* AsyncUdpSocket.h */,
+				2811245B13009F8F00BBB46C /* AsyncUdpSocket.m */,
+				2811245F1300A04300BBB46C /* GCDAsyncSocket.h */,
+				281124601300A04300BBB46C /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		2811245E13009FB900BBB46C /* AirTunes */ = {
+			isa = PBXGroup;
+			children = (
+				285BCFE3135CBFC300E712C9 /* alac.c */,
+				285BCFE4135CBFC300E712C9 /* alac.h */,
+				28A4EF88130366A000BD52D7 /* AirTunes.h */,
+				281124621300A07100BBB46C /* AirTunesController.h */,
+				281124631300A07700BBB46C /* AirTunesController.m */,
+				284B92D31301F9F300C87366 /* TimeSync.h */,
+				284B92D41301F9F300C87366 /* TimeSync.m */,
+				28A4EF8913036FD300BD52D7 /* AudioPlayer.h */,
+				28A4EF8A13036FD300BD52D7 /* AudioPlayer.m */,
+				28A0433A1310ABFF00FD39A2 /* CryptoController.h */,
+				28A0433B1310ABFF00FD39A2 /* CryptoController.m */,
+				28A0433D1310B42600FD39A2 /* Base64.h */,
+				28A0433E1310B42600FD39A2 /* Base64.m */,
+				28962967135E243900559145 /* DMAP.h */,
+				28962968135E243900559145 /* DMAP.m */,
+			);
+			name = AirTunes;
+			path = AirSpeaker;
+			sourceTree = "<group>";
+		};
+		285BCFF0135D077100E712C9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				285BCFF1135D077200E712C9 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		285BCFF6135D079100E712C9 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				285BCFFD135D0AF700E712C9 /* AirSpeaker iPad Icon.png */,
+				285BCFFE135D0AF800E712C9 /* AirSpeaker iPhone Icon.png */,
+				285BCFFF135D0AF800E712C9 /* AirSpeaker iPhone Retina Icon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		285BD00B135D0D2800E712C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				285BCFF6135D079100E712C9 /* Icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		28E3D41012EDEACE00BB15D9 = {
+			isa = PBXGroup;
+			children = (
+				2811245D13009F9A00BBB46C /* CocoaAsyncSocket */,
+				2811245E13009FB900BBB46C /* AirTunes */,
+				28E3D42512EDEACF00BB15D9 /* AirSpeaker */,
+				285BD00B135D0D2800E712C9 /* Resources */,
+				28E3D41E12EDEACF00BB15D9 /* Frameworks */,
+				28E3D41C12EDEACF00BB15D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E3D41C12EDEACF00BB15D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E3D41B12EDEACF00BB15D9 /* AirSpeaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E3D41E12EDEACF00BB15D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28D3A4A0135A817300AF78CC /* Security.framework */,
+				28A0D5E3130469B10075A7B4 /* AVFoundation.framework */,
+				28A4EF94130387AE00BD52D7 /* AudioToolbox.framework */,
+				284001BB12EE60390048E3B2 /* CFNetwork.framework */,
+				28E3D41F12EDEACF00BB15D9 /* UIKit.framework */,
+				28E3D42112EDEACF00BB15D9 /* Foundation.framework */,
+				28E3D42312EDEACF00BB15D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28E3D42512EDEACF00BB15D9 /* AirSpeaker */ = {
+			isa = PBXGroup;
+			children = (
+				285BCFF0135D077100E712C9 /* iPad */,
+				284001B612EE56D70048E3B2 /* DeviceInfo.h */,
+				284001B712EE56D70048E3B2 /* DeviceInfo.m */,
+				28E3D42E12EDEACF00BB15D9 /* AirSpeakerAppDelegate.h */,
+				28E3D42F12EDEACF00BB15D9 /* AirSpeakerAppDelegate.m */,
+				28E3D43112EDEACF00BB15D9 /* MainWindow.xib */,
+				28E3D43412EDEACF00BB15D9 /* AirSpeakerViewController.h */,
+				28E3D43512EDEACF00BB15D9 /* AirSpeakerViewController.m */,
+				28E3D43712EDEACF00BB15D9 /* AirSpeakerViewController.xib */,
+				28E3D42612EDEACF00BB15D9 /* Supporting Files */,
+			);
+			path = AirSpeaker;
+			sourceTree = "<group>";
+		};
+		28E3D42612EDEACF00BB15D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E3D42712EDEACF00BB15D9 /* AirSpeaker-Info.plist */,
+				28E3D42812EDEACF00BB15D9 /* InfoPlist.strings */,
+				28E3D42B12EDEACF00BB15D9 /* AirSpeaker-Prefix.pch */,
+				28E3D42C12EDEACF00BB15D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E3D41A12EDEACE00BB15D9 /* AirSpeaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E3D43C12EDEACF00BB15D9 /* Build configuration list for PBXNativeTarget "AirSpeaker" */;
+			buildPhases = (
+				28E3D41712EDEACE00BB15D9 /* Sources */,
+				28E3D41812EDEACE00BB15D9 /* Frameworks */,
+				28E3D41912EDEACE00BB15D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirSpeaker;
+			productName = AirSpeaker;
+			productReference = 28E3D41B12EDEACF00BB15D9 /* AirSpeaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E3D41212EDEACE00BB15D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Freebox S.A.S.";
+			};
+			buildConfigurationList = 28E3D41512EDEACE00BB15D9 /* Build configuration list for PBXProject "AirSpeaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28E3D41012EDEACE00BB15D9;
+			productRefGroup = 28E3D41C12EDEACF00BB15D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E3D41A12EDEACE00BB15D9 /* AirSpeaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E3D41912EDEACE00BB15D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E3D42A12EDEACF00BB15D9 /* InfoPlist.strings in Resources */,
+				28E3D43312EDEACF00BB15D9 /* MainWindow.xib in Resources */,
+				28E3D43912EDEACF00BB15D9 /* AirSpeakerViewController.xib in Resources */,
+				285BCFF3135D077200E712C9 /* MainWindow-iPad.xib in Resources */,
+				285BD000135D0AF800E712C9 /* AirSpeaker iPad Icon.png in Resources */,
+				285BD001135D0AF800E712C9 /* AirSpeaker iPhone Icon.png in Resources */,
+				285BD002135D0AF800E712C9 /* AirSpeaker iPhone Retina Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E3D41712EDEACE00BB15D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E3D42D12EDEACF00BB15D9 /* main.m in Sources */,
+				28E3D43012EDEACF00BB15D9 /* AirSpeakerAppDelegate.m in Sources */,
+				28E3D43612EDEACF00BB15D9 /* AirSpeakerViewController.m in Sources */,
+				284001B812EE56D70048E3B2 /* DeviceInfo.m in Sources */,
+				2811245C13009F8F00BBB46C /* AsyncUdpSocket.m in Sources */,
+				281124611300A04300BBB46C /* GCDAsyncSocket.m in Sources */,
+				281124641300A07700BBB46C /* AirTunesController.m in Sources */,
+				284B92D51301F9F300C87366 /* TimeSync.m in Sources */,
+				28A4EF8B13036FD300BD52D7 /* AudioPlayer.m in Sources */,
+				28A0433C1310ABFF00FD39A2 /* CryptoController.m in Sources */,
+				28A0433F1310B42700FD39A2 /* Base64.m in Sources */,
+				285BCFE5135CBFC300E712C9 /* alac.c in Sources */,
+				28962969135E243900559145 /* DMAP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		285BCFF1135D077200E712C9 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285BCFF2135D077200E712C9 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+		28E3D42812EDEACF00BB15D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E3D42912EDEACF00BB15D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28E3D43112EDEACF00BB15D9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E3D43212EDEACF00BB15D9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		28E3D43712EDEACF00BB15D9 /* AirSpeakerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E3D43812EDEACF00BB15D9 /* en */,
+			);
+			name = AirSpeakerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28E3D43A12EDEACF00BB15D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28E3D43B12EDEACF00BB15D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		28E3D43D12EDEACF00BB15D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirSpeaker/AirSpeaker-Prefix.pch";
+				INFOPLIST_FILE = "AirSpeaker/AirSpeaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28E3D43E12EDEACF00BB15D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirSpeaker/AirSpeaker-Prefix.pch";
+				INFOPLIST_FILE = "AirSpeaker/AirSpeaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E3D41512EDEACE00BB15D9 /* Build configuration list for PBXProject "AirSpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E3D43A12EDEACF00BB15D9 /* Debug */,
+				28E3D43B12EDEACF00BB15D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E3D43C12EDEACF00BB15D9 /* Build configuration list for PBXNativeTarget "AirSpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E3D43D12EDEACF00BB15D9 /* Debug */,
+				28E3D43E12EDEACF00BB15D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E3D41212EDEACE00BB15D9 /* Project object */;
+}
