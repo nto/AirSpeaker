@@ -100,6 +100,9 @@ enum tag_udp {
 
 - (BOOL)start
 {
+    // Stop the device from sleeping whilst we're playing our tunes
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    
 	// Create our socket.
 	// We tell it to invoke our delegate methods on the main thread.
 	
